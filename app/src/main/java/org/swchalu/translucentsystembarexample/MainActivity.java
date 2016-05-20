@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btn_color;
     private Button btn_draw;
     private Button btn_alpha;
+    private Button btn_alpha1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         btn_color = (Button) findViewById(R.id.btn_color);
         btn_draw = (Button) findViewById(R.id.btn_draw);
         btn_alpha = (Button) findViewById(R.id.btn_alpha);
+        btn_alpha1 = (Button) findViewById(R.id.btn_alpha1);
 
         btn_img.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,6 +50,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent it = new Intent(MainActivity.this, Main3Activity.class);
+                MainActivity.this.startActivity(it);
+            }
+        });
+        btn_alpha1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(MainActivity.this, EditActivity.class);
                 MainActivity.this.startActivity(it);
             }
         });

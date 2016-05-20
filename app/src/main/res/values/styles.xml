@@ -13,6 +13,8 @@
     </style>
 
     <style name="ColorTranslucentTheme" parent="AppTheme"></style>
+    <style name="ImageTranslucentTheme2" parent="AppTheme">
+    </style>
 
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>

@@ -3,11 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:orientation="vertical"
     tools:context="org.swchalu.translucentsystembarexample.MainActivity">
 
     <Button
@@ -15,23 +15,33 @@
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:layout_marginBottom="16dp"
-        android:text="ImageTranslucentBar"/>
+        android:text="ImageTranslucentBar" />
+
     <Button
         android:id="@+id/btn_color"
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:layout_marginBottom="16dp"
-        android:text="ColorTranslucentBar"/>
+        android:text="ColorTranslucentBar" />
+
     <Button
         android:id="@+id/btn_draw"
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:layout_marginBottom="16dp"
-        android:text="ColorToolbar"/>
+        android:text="ColorToolbar" />
+
     <Button
         android:id="@+id/btn_alpha"
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:layout_marginBottom="16dp"
-        android:text="ColorToolbar"/>
+        android:text="btn_alpha" />
+
+    <Button
+        android:id="@+id/btn_alpha1"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="16dp"
+        android:text="btn_alpha1" />
 </LinearLayout>

@@ -20,7 +20,8 @@ public class Main3Activity extends AppCompatActivity {
 
         //设置工具栏标题
         CollapsingToolbarLayout collapsingToolbar = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
-        collapsingToolbar.setTitle("cheeseName");
+        collapsingToolbar.setTitle("App");
+//        collapsingToolbar
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {

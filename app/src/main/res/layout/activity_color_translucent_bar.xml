@@ -5,12 +5,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:fitsSystemWindows="true"
-    android:background="#31C37B"
+    android:background="@color/toolbarColor"
     tools:context="org.swchalu.translucentsystembarexample.ColorTranslucentBarActivity">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="56dp"
-        android:background="#31C37B">
+        android:background="@color/toolbarColor">
 
         <TextView
             android:layout_width="wrap_content"

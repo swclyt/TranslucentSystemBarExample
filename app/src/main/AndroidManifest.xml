@@ -28,7 +28,15 @@
         <activity
             android:name=".Main3Activity"
             android:label="@string/title_activity_main3"
-            android:theme="@style/ImageTranslucentTheme"></activity>
+            android:theme="@style/ImageTranslucentTheme" />
+        <activity
+            android:name=".Main4Activity"
+            android:theme="@style/ImageTranslucentTheme" />
+        <activity
+            android:name=".EditActivity"
+            android:label="@string/title_activity_edit"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize"/>
     </application>
 
 </manifest>
