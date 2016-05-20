@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
+import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -58,6 +59,7 @@ public class TestFragment extends Fragment implements SwipeRefreshLayout.OnRefre
         recyclerAdapter = new RecyclerAdapter(statuesList, this.getContext());
         recyclerView.setLayoutManager(mLayoutManager);
         recyclerView.setAdapter(recyclerAdapter);
+        recyclerView.setItemAnimator(new DefaultItemAnimator());
 
         mSwipeLayout = (SwipeRefreshLayout) rootView.findViewById(R.id.swipe);
         mSwipeLayout.setOnRefreshListener(this);
